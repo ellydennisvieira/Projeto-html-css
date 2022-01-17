@@ -65,3 +65,17 @@ Se quiser, faça esse teste
 Dois pontos são dois joelhos
 Seus lábios são aparelhos
 Deixe que Deus interprete.
+
+cor 
+#451B03
+#CE7846
+#C44D08
+#452817
+#913906
+
+cor 2
+#735E20
+#73532D
+#BF8D50
+#D9B282
+#260F01
