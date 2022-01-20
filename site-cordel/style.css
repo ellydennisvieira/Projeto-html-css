@@ -36,6 +36,7 @@ header{
     text-align: center;
     background-color: var(--cor2);
     color:var(--cor4);
+
     
 
 }
@@ -43,8 +44,10 @@ header > h1 {
 
     padding-top: 50px;
     font-family:var(--fonte-destaque);
+    font-size: 30%vh;
     font-variant: initial;
     letter-spacing: 5px;
+
 
     
     
@@ -52,6 +55,9 @@ header > h1 {
 header > p {
     padding-top: 10px;
     padding-bottom: 50px;
+    font-family:var(--fonte-destaque);
+
+
 
 }
 a {
@@ -72,28 +78,57 @@ section{
 }
 section.normal{
     background-color:var(--cor1);
-    height: 400px;
-     
-    margin-left: auto;
-    margin-right: auto;
+    height: 450px;
     font-family: var(--fonte-destaque);
     font-size: 15px;
+    
 
 }
 
 section.imagens-1{
     background-color: var(--cor0);
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-digital);
     font-size: 15px;
     
+    
+}
+section#img01{
+    
+    background-image: url(../site-cordel/imagens/jakob-owens-nKFPNayRbFE-unsplash.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+
 }
 
 section.imagens-2{
     background-color:var(--cor2);
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-digital);
     font-size: 15px;
     background-image: image(#260F01);
     
+    
+}
+section#img02{
+    background-image: url(../site-cordel/imagens/sandro-gonzalez-fXD4P9lqTWU-unsplash.jpg);
+    background-position:  center center;
+}
+
+section#img03{
+    background-image: url(../site-cordel/imagens/pexels-williamis-cesar-2441175.jpg);
+}
+
+section > pre {
+    padding-bottom: 0,5em;
+
+}
+
+pre{
+
+    display: inline-block;
+    background-color: #260f0146;
+    padding: 10px 5px ;
+    text-align: left;
+    color: aliceblue;
     
 }
 
