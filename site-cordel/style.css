@@ -111,6 +111,7 @@ section#img01{
     background-image: url(../site-cordel/imagens/jakob-owens-nKFPNayRbFE-unsplash.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -129,6 +130,7 @@ section.imagens-2{
 section#img02{
     background-image: url(../site-cordel/imagens/sandro-gonzalez-fXD4P9lqTWU-unsplash.jpg);
     background-position:  center center;
+    background-size: cover;
 }
 
 section#img03{
