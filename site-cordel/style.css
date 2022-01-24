@@ -9,6 +9,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 
 }
 
@@ -28,37 +29,26 @@
 html body{
     min-height: 100vh;
     background-color: #D9B282;
+    font-family: var(--fonte-padrao);
 }
 
 header{
     
-    min-height: 150px;
-    text-align: center;
     background-color: var(--cor2);
     color:var(--cor4);
-
+    text-align: center;
     
-
 }
 header > h1 {
 
     padding-top: 50px;
     font-family:var(--fonte-destaque);
-    font-size: 30%vh;
-    font-variant: initial;
+    font-size: 10vh;
+    font-variant: small-caps;
     letter-spacing: 5px;
-
-
-    
-    
 }
 header > p {
-    padding-top: 10px;
     padding-bottom: 50px;
-    font-family:var(--fonte-destaque);
-
-
-
 }
 a {
     color: var(--cor4);
@@ -74,22 +64,46 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte-destaque);
+    font-size: 2vw;
+    text-decoration: none;
+    
+
 
 }
+section >p {
+    padding-bottom: 2em;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.322);
+    
+    
+}
 section.normal{
-    background-color:var(--cor1);
-    height: 450px;
-    font-family: var(--fonte-destaque);
-    font-size: 15px;
+    background-color:var(--cor4);
+    color:var(--cor3);
+    text-shadow: 1px 1px 0px black;
+    padding: 30px;
+    font-size: 20px;
+    
+
+
+    
     
 
 }
 
 section.imagens-1{
     background-color: var(--cor0);
+    color: var(--cor4);
     font-family: var(--fonte-digital);
-    font-size: 15px;
-    
+    font-size: 20px;
+    box-shadow: inset 6px 6px 13px 0px rgba(245, 238, 238, 0.945);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: end;
+    padding: 15px;
+
     
 }
 section#img01{
@@ -103,8 +117,12 @@ section#img01{
 section.imagens-2{
     background-color:var(--cor2);
     font-family: var(--fonte-digital);
-    font-size: 15px;
+    font-size: 20px;
+    color:var(--cor3);
     background-image: image(#260F01);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
     
     
 }
